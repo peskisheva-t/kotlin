@@ -1,15 +1,19 @@
+﻿# Android
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+/.idea
 .DS_Store
 /build
+/app/build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# Вложенный проект
+/intents-homework/.gradle
+/intents-homework/.idea
+/intents-homework/build
+/intents-homework/app/build
+/intents-homework/.kotlin
+/intents-homework/local.properties
